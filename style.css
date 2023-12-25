@@ -17,29 +17,7 @@ h2 {
   font-size: 24px;
 }
 
-input {
-  background-color: #000;
-  background-image: none;
-  background-color: transparent;
-  border: 1px solid #7FFB4E;
-  border-radius: 2px;
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  color: #7FFB4E;
-  font-family: "Courier New";
-  font-size: 20px;
-  flex: 1;
-  outline: none;
-  padding: 20px;
-}
 
-input::placeholder {
-  color: #7FFB4E;
-  opacity: 0.5;
-  font-family: "Courier New";
-  font-size: 20px;
-}
 
 a,
 a:visited,
@@ -106,28 +84,6 @@ button,
   border-radius: 2px;
   padding: 0 20px;
   width: 300px;
-}
-
-.timer {
-  padding-top: 10px;
-  width: 400px;
-}
-
-.hidden {
-  cursor: default;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.form {
-  display: flex;
-}
-
-.error {
-  font-size: 16px;
-  margin-top: 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
 }
 
 .button-style-link {
